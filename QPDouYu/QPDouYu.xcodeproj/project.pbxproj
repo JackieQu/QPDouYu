@@ -10,8 +10,8 @@
 		2823BFA02089E215004EBB8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2823BF9F2089E215004EBB8F /* AppDelegate.swift */; };
 		2823BFA22089E215004EBB8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2823BFA12089E215004EBB8F /* ViewController.swift */; };
 		2823BFA52089E215004EBB8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2823BFA32089E215004EBB8F /* Main.storyboard */; };
-		2823BFA72089E21B004EBB8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2823BFA62089E21B004EBB8F /* Assets.xcassets */; };
 		2823BFAA2089E21B004EBB8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2823BFA82089E21B004EBB8F /* LaunchScreen.storyboard */; };
+		2823BFB4208D8537004EBB8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2823BFB3208D8537004EBB8F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +19,9 @@
 		2823BF9F2089E215004EBB8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2823BFA12089E215004EBB8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2823BFA42089E215004EBB8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2823BFA62089E21B004EBB8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2823BFA92089E21B004EBB8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2823BFAB2089E21B004EBB8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2823BFB3208D8537004EBB8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 				2823BF9F2089E215004EBB8F /* AppDelegate.swift */,
 				2823BFA12089E215004EBB8F /* ViewController.swift */,
 				2823BFA32089E215004EBB8F /* Main.storyboard */,
-				2823BFA62089E21B004EBB8F /* Assets.xcassets */,
+				2823BFB3208D8537004EBB8F /* Assets.xcassets */,
 				2823BFA82089E21B004EBB8F /* LaunchScreen.storyboard */,
 				2823BFAB2089E21B004EBB8F /* Info.plist */,
 			);
@@ -123,7 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2823BFAA2089E21B004EBB8F /* LaunchScreen.storyboard in Resources */,
-				2823BFA72089E21B004EBB8F /* Assets.xcassets in Resources */,
+				2823BFB4208D8537004EBB8F /* Assets.xcassets in Resources */,
 				2823BFA52089E215004EBB8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,9 +280,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8E5A83P9AJ;
 				INFOPLIST_FILE = QPDouYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,9 +300,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8E5A83P9AJ;
 				INFOPLIST_FILE = QPDouYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
